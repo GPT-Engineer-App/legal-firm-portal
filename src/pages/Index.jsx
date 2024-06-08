@@ -1,6 +1,6 @@
 import { Container, Text, VStack, Heading, Box, Button, Flex, IconButton, Image } from "@chakra-ui/react";
 import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
-import YanukovychBehindBarsImage from "/images/yanukovych-behind-bars.jpg";
+import YanukovychBehindBarsWithLawyerImage from "/images/yanukovych-behind-bars-with-lawyer.jpg";
 
 const Index = () => {
   return (
@@ -9,7 +9,7 @@ const Index = () => {
         <Image src="/images/hero-image.jpg" alt="Hero Image" borderRadius="md" mb={4} />
         <Heading as="h1" size="2xl" mb={4}>Юридична Фірма</Heading>
         <Text fontSize="lg">Ми надаємо професійні юридичні послуги для вашого бізнесу та особистих потреб.</Text>
-        <Image src={YanukovychBehindBarsImage} alt="Yanukovych Behind Bars" borderRadius="md" mt={8} />
+        <Image src={YanukovychBehindBarsWithLawyerImage} alt="Yanukovych Behind Bars with Lawyer" borderRadius="md" mt={8} />
         <Box mt={8}>
           <Button colorScheme="blue" size="lg" mb={4}>Зв'язатися з нами</Button>
         </Box>
