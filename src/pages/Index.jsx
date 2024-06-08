@@ -1,6 +1,6 @@
 import { Container, Text, VStack, Heading, Box, Button, Flex, IconButton, Image } from "@chakra-ui/react";
 import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
-import YanukovychBehindBarsWithLawyerImage from "/images/new-path-to-yanukovych-image.jpg";
+import YanukovychBehindBarsWithLawyerImage from "/images/yanukovych-behind-bars-with-lawyer.jpg";
 
 const Index = () => {
   return (
