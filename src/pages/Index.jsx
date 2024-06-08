@@ -1,10 +1,11 @@
-import { Container, Text, VStack, Heading, Box, Button, Flex, IconButton } from "@chakra-ui/react";
+import { Container, Text, VStack, Heading, Box, Button, Flex, IconButton, Image } from "@chakra-ui/react";
 import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 const Index = () => {
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
       <VStack spacing={4} textAlign="center">
+        <Image src="/images/hero-image.jpg" alt="Hero Image" borderRadius="md" mb={4} />
         <Heading as="h1" size="2xl" mb={4}>Юридична Фірма</Heading>
         <Text fontSize="lg">Ми надаємо професійні юридичні послуги для вашого бізнесу та особистих потреб.</Text>
         <Box mt={8}>
@@ -23,6 +24,7 @@ const Index = () => {
             <IconButton aria-label="Location" icon={<FaMapMarkerAlt />} size="lg" mr={2} />
             <Text>м. Київ, вул. Хрещатик, 1</Text>
           </Flex>
+          <Image src="/images/contact-us.jpg" alt="Contact Us Image" borderRadius="md" mt={8} />
         </Flex>
       </VStack>
     </Container>
